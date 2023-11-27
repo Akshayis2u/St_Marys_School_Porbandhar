@@ -1,0 +1,24 @@
+.section-title {
+    margin-top: 60px;
+    position: relative;
+}
+
+.section-title h2 {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0;
+    line-height: 1px;
+    margin: 0 0 5px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ff6f6f;
+}
+
+.section-title h2:after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #ff6f6f;
+    margin: 4px 10px;
+}
